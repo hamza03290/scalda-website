@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Page Title</title>
+  <link rel="stylesheet" href="script.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<body>
+
+    <div id="header">
+        <div class="contactinfo">
+          <p class="contact"><i class="fa-solid fa-phone"></i>
+            0115 64 16 00 <i class="fa-solid fa-envelope"></i>
+            info@scalda.nl</p<i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="divider"></div>
+
+    <nav class="navbar">
+        <img src="images/logo scalda.png" alt="">
+        <ul>
+         <li><a href="index.html" class="active">Home</a></li>
+         <li><a href="praktische informatie.html">Praktische informatie</a></li>
+         <li><a href="opdrachten.html">Opdrachten</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         </ul>
+         </nav>
+ <div class="divider shadow"></div>
+  <div id="opcontainer">
+    <div class="opcol1">
+      <img src="images/scalda patroon.png">
+      <h2>Opdracht 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum eu dolor id ornare. In non
+        sagittis dui. Curabitur pharetra urna nec ex viverra, sit amet rhoncus odio venenatis. Phasellus vel nibh justo.
+        Pellentesque eget massa quis turpis aliquet imperdiet ac ut elit. </p>
+ 
+      <p>Vestibulum in sapien a justo molestie congue.
+        Aliquam scelerisque convallis tellus, consequat fringilla arcu gravida vitae. Vivamus porta nibh rutrum quam
+        blandit viverra. In hac habitasse platea dictumst. Duis venenatis accumsan mi nec maximus. Phasellus bibendum
+        viverra venenatis. </p>
+      <button class="popup1" onclick="openPopup(1)">Meer info</button>
+    </div>
+    <div class="opcol2">
+      <img src="images/scalda patroon.png">
+      <h2>Opdracht 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum eu dolor id ornare. In non
+        sagittis dui. Curabitur pharetra urna nec ex viverra, sit amet rhoncus odio venenatis. Phasellus vel nibh justo.
+        Pellentesque eget massa quis turpis aliquet imperdiet ac ut elit. </p>
+ 
+      <p>Vestibulum in sapien a justo molestie congue.
+        Aliquam scelerisque convallis tellus, consequat fringilla arcu gravida vitae. Vivamus porta nibh rutrum quam
+        blandit viverra. In hac habitasse platea dictumst. Duis venenatis accumsan mi nec maximus. Phasellus bibendum
+        viverra venenatis. </p>
+      <button class="popup1" onclick="openPopup(2)">Meer info</button>
+    </div>
+    <div class="opcol3">
+      <img src="images/scalda patroon.png">
+      <h2>Opdracht 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum eu dolor id ornare. In non
+        sagittis dui. Curabitur pharetra urna nec ex viverra, sit amet rhoncus odio venenatis. Phasellus vel nibh justo.
+        Pellentesque eget massa quis turpis aliquet imperdiet ac ut elit. </p>
+ 
+      <p>Vestibulum in sapien a justo molestie congue.
+        Aliquam scelerisque convallis tellus, consequat fringilla arcu gravida vitae. Vivamus porta nibh rutrum quam
+        blandit viverra. In hac habitasse platea dictumst. Duis venenatis accumsan mi nec maximus. Phasellus bibendum
+        viverra venenatis. </p>
+      <button class="popup3" onclick="openPopup(3)">Meer info</button>
+    </div>
+  </div>
+ 
+  <!--popup opdrachten-->
+  <div class="popup" id="popup1">
+    <div class="popup-content">
+      <span class="popup-close" onclick="closePopup(1)">&times;</span>
+      <h2>Opdracht 1</h2>
+      <div class="content-container">
+        <div class="popuptext">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non lobortis arcu. Nunc turpis nulla,
+            tempor
+            et neque eu, porttitor elementum magna.
+          </p>
+          <p>
+            Etiam nec fermentum orci. Pellentesque vestibulum sapien magna, ac feugiat magna accumsan a. Aliquam
+            interdum commodo metus ut consequat. Donec non ex volutpat, ultricies purus sed, finibus urna. Mauris eu
+            turpis diam. Vivamus quis ante sit amet velit volutpat aliquet. Nam vestibulum mi non ipsum laoreet
+            elementum. Nulla ornare sed tellus vitae convallis. Integer varius lectus ut suscipit tristique. Sed eget
+            nulla vitae arcu tempor tincidunt suscipit eu ante.
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/popup afbeelding.jpg" alt="Image Description">
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="popup" id="popup2">
+    <div class="popup-content">
+      <span class="popup-close" onclick="closePopup(2)">&times;</span>
+      <h2>Opdracht 2</h2>
+      <div class="content-container">
+        <div class="popuptext">
+          <p>Donec feugiat pellentesque nisi, quis commodo libero scelerisque quis. Fusce lacinia leo ac bibendum
+            ultricies. Curabitur mi enim, consectetur et purus sed, hendrerit cursus dolor. Phasellus vitae eleifend
+            ligula. Ut auctor suscipit mauris, vel vulputate leo fermentum ac. Quisque pretium nunc at ultricies
+            sodales. Vestibulum consequat ullamcorper metus, eu viverra lectus vestibulum id. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam nisi justo, feugiat in fermentum
+            at, bibendum non nulla.</p>
+          <p>Cras viverra molestie risus. Donec et ultrices ante. Praesent erat ipsum, tincidunt non luctus eget,
+            pulvinar non erat.
+        </div>
+        <div class="image">
+          <img src="images/popup afbeelding.jpg" alt="Image Description">
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="popup" id="popup3">
+    <div class="popup-content">
+      <span class="popup-close" onclick="closePopup(3)">&times;</span>
+      <h2>Opdracht 3</h2>
+      <div class="content-container">
+        <div class="popuptext">
+          <p>Ut molestie risus a leo pretium, nec venenatis purus hendrerit. Curabitur vitae quam ac lacus consequat
+            aliquet. Morbi sollicitudin odio ac turpis fermentum, varius viverra augue luctus. Cras risus est, semper
+            eget lobortis eleifend, egestas quis nisi. Vivamus vitae vulputate purus. Fusce a sem et enim tincidunt
+            facilisis id ut tortor. Aliquam erat volutpat. Vivamus in consequat magna. Praesent magna risus, sagittis ac
+            tincidunt vel, tempus eget elit. Suspendisse vel volutpat libero. Quisque euismod, tellus non consectetur
+            pharetra, lacus neque mattis metus, nec tincidunt urna felis vel libero. </p>
+          <p>Nullam pharetra lectus a odio finibus, sed venenatis lorem malesuada. Proin pharetra vitae lorem non
+            blandit.
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/popup afbeelding.jpg" alt="Image Description">
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <script>
+    function openPopup(popupNum) {
+      var popup = document.getElementById("popup" + popupNum);
+      popup.style.display = "block";
+    }
+ 
+    function closePopup(popupNum) {
+      var popup = document.getElementById("popup" + popupNum);
+      popup.style.display = "none";
+    }
+   
+   
+ 
+  </script>
+    <div class="footer">
+        <div class="footer-content">
+          <div class="footer-section-terneuzen">
+            Scalda Terneuzen <br>
+            Vlietstraat 11A <br>
+            4535HA Terneuzen <br>
+            0115 641 600 <br>
+            info@scalda.nl
+          </div>
+    
+          <div class="footer-section-middelburg">
+            Scalda Middelburg <br>
+            Podium 15 <br>
+            4337 VW Middelburg <br>
+            0118 558 300 <br>
+            info@scalda.nl
+          </div>
+    
+          <div class="footer-section-goes">
+            Scalda Goes <br>
+            Bessestraat 4 <br>
+            4462 CM Goes <br>
+            0113 558 000 <br>
+            info@scalda.nl
+          </div>
+    
+          <div class="footer-section-copyright">
+            &copy; 2023 - Scalda
+          </div>
+    
+          <div class="footer-section-nav">
+            <a class="footer-nav" href="sprint2.html">&#x2022; Home</a>
+            <a class="footer-nav" href="Praktische informatie.html">&#x2022; Praktische informatie</a>
+            <a class="footer-nav" href="opdrachten.html">&#x2022; Opdrachten</a>
+            <a class="footer-nav" href="contact.html">&#x2022; Contact</a>
+          </div>
+        </div>
+      </div>
+    
+    
+      </div>
+</body>
+</html>
